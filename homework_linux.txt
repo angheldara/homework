@@ -1,0 +1,11 @@
+   0 mkdir -p /home/animals/ /home/animals/dogs /home/animals/cats /home/animals/fish /home/planets/ /home/humans 
+   1 touch /home/animals/dogs/pluto /home/animals/cats/garfield /home/animals/fish/nemo /opt/Mercury /opt/Venus /opt/Mars /opt/Jupiter /tmp/adam /opt/evA
+   2 mv /opt/Mercury /opt/Venus /opt/Mars /opt/Jupiter /home/planets
+   3 cp /tmp/adam /home/humans/
+   4 mv /opt/evA tmp/eve
+   5 touch /home/animals/dogs/pluto /home/animals/cats/garfield /home/animals/fish/nemo /opt/Mercury /opt/Venus /opt/Mars /opt/Jupiter /tmp/adam /opt/evA
+   6 mv /opt/evA /tmp/eve
+   7 mv /tmp/eve /home/humans
+   8 tree /home/
+   9 history
+  10 history > homework_linux.txt

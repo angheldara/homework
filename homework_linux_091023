@@ -1,0 +1,11 @@
+   0 mkdir -p /home/user
+   1 mkdir -p /home/user/tmp
+   2 touch vi file.txt
+   3 df-h
+   4 df -h
+   5 echo head -3 >> file.txt
+   6 chmod g+w
+   7 chmod g+w file.txt
+   8 chmod u-r file.txt
+   9 chmod o+x file.txt
+  10 history >> homework_linux_091023

@@ -1,0 +1,9 @@
+#!/bin/bash
+ 
+mkdir -p /opt/18092023_e/ /anghel/
+touch /opt/18092023_e/anghel/testscript.sh
+echo  "Your name is: " $USER
+echo "Your working directory is: " $PWD
+echo "number of users: "
+ps -ef | grep ssh
+echo "done"
